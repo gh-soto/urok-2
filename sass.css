@@ -1,0 +1,420 @@
+body {
+  font-family: "source-sans-pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  width: 100%;
+  margin: 0; }
+
+header {
+  background: #003366;
+  border: 1px solid #003366;
+  float: top;
+  clear: right; }
+  header p {
+    font-size: 0.9em;
+    color: #d8d8db;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle; }
+    header p a {
+      text-decoration: none;
+      color: white; }
+    header p a:hover {
+      text-decoration: underline; }
+
+#rainbow-line {
+  background: #EE82EE;
+  height: 0.25em;
+  max-width: 100%;
+  min-width: 100%;
+  padding: 0;
+  position: relative; }
+  #rainbow-line .colored-block {
+    display: inline-block;
+    margin: auto;
+    vertical-align: middle;
+    max-width: 15%;
+    min-width: 15%;
+    height: 0.25em;
+    position: absolute;
+    left: 0; }
+  #rainbow-line #cb1 {
+    left: 0;
+    background: #FF0000; }
+  #rainbow-line #cb2 {
+    left: 14.5%;
+    background: #FBA200; }
+  #rainbow-line #cb3 {
+    left: 29%;
+    background: #FFFF00; }
+  #rainbow-line #cb4 {
+    left: 43.5%;
+    background: #008000; }
+  #rainbow-line #cb5 {
+    left: 58%;
+    background: #0000FF; }
+  #rainbow-line #cb6 {
+    left: 72.5%;
+    background: #4B0082; }
+
+nav {
+  margin: auto; }
+  nav #nav-conteiner {
+    overflow: auto;
+    margin: 2em 0; }
+    nav #nav-conteiner #logo {
+      display: inline-block;
+      float: left;
+      margin-left: 4em; }
+      nav #nav-conteiner #logo img {
+        display: block;
+        height: 6em;
+        margin-right: 2em; }
+    nav #nav-conteiner #navico {
+      display: none; }
+    nav #nav-conteiner #top-menu {
+      float: right;
+      max-width: 80%;
+      min-width: 60%;
+      display: inline-block;
+      padding: 3px 0;
+      margin-top: 2em; }
+      nav #nav-conteiner #top-menu img {
+        display: none; }
+      nav #nav-conteiner #top-menu li {
+        display: inline-block; }
+        nav #nav-conteiner #top-menu li a {
+          font-family: 'Source Sans Pro', sans-serif;
+          vertical-align: middle;
+          display: block;
+          margin-left: 2.5em;
+          text-transform: uppercase;
+          font-weight: bolder;
+          text-decoration: none;
+          font-size: 1em;
+          color: #CC66AD; }
+        nav #nav-conteiner #top-menu li a:visited {
+          color: #B37399; }
+        nav #nav-conteiner #top-menu li a:hover {
+          color: #003366; }
+
+#page-header h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 4em;
+  color: #808C99;
+  margin: 0 auto;
+  text-align: center; }
+
+.body {
+  padding: 3em; }
+  .body #glasses {
+    display: table-cell;
+    padding-right: 2em; }
+    .body #glasses img {
+      vertical-align: middle; }
+  .body p {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    padding-right: 1em;
+    color: #699; }
+
+.body::after {
+  content: '.';
+  display: block;
+  clear: both;
+  height: 0; }
+
+.release {
+  background: #C6538C;
+  padding: 0.75em;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 100%;
+  font-size: 1.2em; }
+  .release ul {
+    text-align: center;
+    font-weight: 400;
+    color: #E6E6E6; }
+    .release ul li {
+      display: inline;
+      margin-right: 2em; }
+      .release ul li a {
+        font-weight: 600;
+        color: #E6E6E6;
+        text-decoration: none;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 100%; }
+      .release ul li a:hover {
+        text-decoration: underline; }
+
+.feature-table {
+  text-align: center;
+  font-size: 1em;
+  font-weight: 400;
+  font-style: italic;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 10em 0; }
+
+@media only screen and (max-width: 1000px) {
+  body {
+    font-family: "source-sans-pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    width: 100%;
+    margin: 0; }
+
+  header {
+    border: 1px solid #003366;
+    background: #003366;
+    float: top;
+    clear: right; }
+    header p {
+      font-size: 0.9em;
+      color: #d8d8db;
+      font-weight: bold;
+      text-align: center;
+      vertical-align: middle; }
+      header p a {
+        text-decoration: none;
+        color: white; }
+      header p a:hover {
+        text-decoration: underline; }
+
+  #rainbow-line {
+    background: #EE82EE;
+    height: 0.25em;
+    max-width: 100%;
+    min-width: 100%;
+    padding: 0;
+    position: relative; }
+    #rainbow-line .colored-block {
+      display: inline-block;
+      margin: auto;
+      vertical-align: middle;
+      max-width: 15%;
+      min-width: 15%;
+      height: 0.25em;
+      position: absolute;
+      left: 0; }
+    #rainbow-line #cb1 {
+      left: 0;
+      background: #FF0000; }
+    #rainbow-line #cb2 {
+      left: 14.5%;
+      background: #FBA200; }
+    #rainbow-line #cb3 {
+      left: 29%;
+      background: #FFFF00; }
+    #rainbow-line #cb4 {
+      left: 43.5%;
+      background: #008000; }
+    #rainbow-line #cb5 {
+      left: 58%;
+      background: #0000FF; }
+    #rainbow-line #cb6 {
+      left: 72.5%;
+      background: #4B0082; }
+
+  nav {
+    margin: auto; }
+    nav #nav-conteiner {
+      overflow: auto;
+      margin: 2em 0; }
+      nav #nav-conteiner #logo {
+        display: inline-block;
+        float: left;
+        margin-left: 2.5em; }
+        nav #nav-conteiner #logo img {
+          display: block;
+          height: 6em;
+          margin-right: 2em; }
+      nav #nav-conteiner #navico {
+        display: none; }
+      nav #nav-conteiner #top-menu {
+        float: right;
+        max-width: 80%;
+        min-width: 35%;
+        display: inline-block;
+        padding: 3px 0;
+        margin-top: 2em;
+        margin-right: 1em; }
+        nav #nav-conteiner #top-menu img {
+          display: none; }
+        nav #nav-conteiner #top-menu li {
+          display: inline-block; }
+          nav #nav-conteiner #top-menu li a {
+            font-family: 'Source Sans Pro', sans-serif;
+            vertical-align: middle;
+            display: block;
+            margin-left: 1.5em;
+            text-transform: uppercase;
+            font-weight: bolder;
+            text-decoration: none;
+            font-size: 0.75em;
+            color: #CC66AD; }
+          nav #nav-conteiner #top-menu li a:visited {
+            color: #B37399; }
+          nav #nav-conteiner #top-menu li a:hover {
+            color: #003366; }
+
+  #page-header h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3em;
+    color: #808C99;
+    margin: 0 auto;
+    text-align: center; } }
+@media only screen and (max-width: 760px) {
+  body {
+    font-family: "source-sans-pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    width: 100%;
+    margin: 0; }
+
+  header {
+    background: #003366;
+    border: 1px solid #003366;
+    float: top;
+    clear: right; }
+    header p {
+      font-size: 0.9em;
+      color: #d8d8db;
+      font-weight: bold;
+      text-align: center;
+      vertical-align: middle; }
+      header p a {
+        text-decoration: none;
+        color: white; }
+      header p a:hover {
+        text-decoration: underline; }
+
+  #rainbow-line {
+    background: #EE82EE;
+    height: 0.25em;
+    max-width: 100%;
+    min-width: 100%;
+    padding: 0;
+    position: relative; }
+    #rainbow-line .colored-block {
+      display: inline-block;
+      margin: auto;
+      vertical-align: middle;
+      max-width: 15%;
+      min-width: 15%;
+      height: 0.25em;
+      position: absolute;
+      left: 0; }
+    #rainbow-line #cb1 {
+      left: 0;
+      background: #FF0000; }
+    #rainbow-line #cb2 {
+      left: 14.5%;
+      background: #FBA200; }
+    #rainbow-line #cb3 {
+      left: 29%;
+      background: #FFFF00; }
+    #rainbow-line #cb4 {
+      left: 43.5%;
+      background: #008000; }
+    #rainbow-line #cb5 {
+      left: 58%;
+      background: #0000FF; }
+    #rainbow-line #cb6 {
+      left: 72.5%;
+      background: #4B0082; }
+
+  nav {
+    margin: auto; }
+    nav #nav-conteiner {
+      margin: 2em 0;
+      position: relative; }
+      nav #nav-conteiner #logo {
+        display: inline-block;
+        float: left;
+        margin-left: 1.5em; }
+        nav #nav-conteiner #logo img {
+          display: block;
+          height: 3em;
+          margin-right: 2em; }
+      nav #nav-conteiner #navico {
+        display: inline-block;
+        box-shadow: none;
+        border-color: transparent;
+        padding: 0;
+        float: right;
+        margin-right: 2em;
+        margin-top: 0.6em; }
+        nav #nav-conteiner #navico img {
+          display: block;
+          height: 1.7em;
+          margin: 0; }
+      nav #nav-conteiner #top-menu {
+        display: none; }
+
+  #page-header h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2em;
+    color: #808C99;
+    margin: 0 auto;
+    text-align: center; }
+
+  .body #glasses {
+    display: block;
+    float: top;
+    clear: both;
+    width: 100%;
+    margin-bottom: 1em; }
+    .body #glasses img {
+      margin: auto;
+      width: 100%;
+      vertical-align: middle; }
+  .body p {
+    vertical-align: middle;
+    font-size: 100%;
+    text-align: center;
+    line-height: 1.5em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #699; }
+
+  .body::after {
+    content: '.';
+    display: block;
+    clear: both;
+    height: 0; } }
+@media only screen and (max-width: 480px) {
+  #page-header h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5em;
+    color: #808C99;
+    margin: 0 auto;
+    text-align: center; }
+
+  .release {
+    background: #C6538C;
+    padding: 0.75em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 100%;
+    font-size: 1.2em; }
+    .release ul {
+      text-align: center;
+      font-weight: 400;
+      color: #E6E6E6; }
+      .release ul li {
+        display: block;
+        margin-right: 2em; }
+        .release ul li a {
+          font-weight: 600;
+          color: #E6E6E6;
+          text-decoration: none;
+          font-family: 'Source Sans Pro', sans-serif;
+          font-size: 100%; }
+        .release ul li a:hover {
+          text-decoration: underline; } }
+
+/*# sourceMappingURL=sass.css.map */
