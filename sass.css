@@ -130,11 +130,14 @@ nav {
 
 .release {
   background: #C6538C;
-  padding: 0.75em;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 100%;
-  font-size: 1.2em; }
+  box-sizing: border-box;
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+  font-family: 'Source Sans Pro', sans-serif; }
   .release ul {
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
     text-align: center;
     font-weight: 400;
     color: #E6E6E6; }
@@ -145,18 +148,71 @@ nav {
         font-weight: 600;
         color: #E6E6E6;
         text-decoration: none;
-        font-family: 'Source Sans Pro', sans-serif;
-        font-size: 100%; }
+        font-family: 'Source Sans Pro', sans-serif; }
       .release ul li a:hover {
         text-decoration: underline; }
 
 .feature-table {
-  text-align: center;
-  font-size: 1em;
-  font-weight: 400;
-  font-style: italic;
-  font-family: 'Roboto Condensed', sans-serif;
-  padding: 10em 0; }
+  margin-top: 2em;
+  text-align: left; }
+  .feature-table table {
+    width: 99%;
+    margin: auto; }
+    .feature-table table tr td {
+      vertical-align: top;
+      padding: 1em;
+      width: 33%; }
+      .feature-table table tr td h4 {
+        color: #808C99;
+        font-family: 'Source Serif Pro', serif;
+        font-style: normal;
+        text-transform: uppercase; }
+      .feature-table table tr td p {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+        font-style: normal; }
+
+footer {
+  height: 5em;
+  width: 99%;
+  margin: auto;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em; }
+  footer .license {
+    padding-left: 2em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.75em;
+    float: left;
+    width: 50%;
+    color: #808C99; }
+    footer .license p a {
+      color: #484C55;
+      text-decoration: none; }
+    footer .license p a:hover {
+      color: #036; }
+  footer .footer-link {
+    margin-left: -4.5em;
+    padding-left: 3em;
+    float: left;
+    width: 50%; }
+    footer .footer-link ul {
+      width: 100%;
+      height: 100%;
+      display: table; }
+      footer .footer-link ul li {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 0.75em;
+        padding-right: 2em;
+        display: inline; }
+        footer .footer-link ul li a {
+          color: #484C55;
+          text-decoration: none; }
+        footer .footer-link ul li a:hover {
+          color: #036; }
 
 @media only screen and (max-width: 1000px) {
   body {
@@ -384,7 +440,69 @@ nav {
     content: '.';
     display: block;
     clear: both;
-    height: 0; } }
+    height: 0; }
+
+  .feature-table {
+    margin-top: 2em;
+    text-align: left; }
+    .feature-table table {
+      width: 99%;
+      margin: auto; }
+      .feature-table table tr td {
+        display: block;
+        vertical-align: top;
+        padding: 1em;
+        width: 99%;
+        margin: auto; }
+        .feature-table table tr td h4 {
+          color: #808C99;
+          font-family: 'Source Serif Pro', serif;
+          font-style: normal;
+          text-transform: uppercase; }
+        .feature-table table tr td p {
+          font-family: 'Source Sans Pro', sans-serif;
+          font-weight: 400;
+          font-style: normal;
+          margin-right: 1em; }
+
+  footer {
+    height: 5em;
+    width: 99%;
+    margin: auto;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em; }
+    footer .license {
+      padding-left: 2em;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 0.75em;
+      color: #808C99;
+      width: 100%; }
+      footer .license p a {
+        color: #484C55;
+        text-decoration: none; }
+      footer .license p a:hover {
+        color: #036; }
+    footer .footer-link {
+      padding-top: 2em;
+      padding-bottom: 5em;
+      width: 100%;
+      text-align: center; }
+      footer .footer-link ul {
+        margin: auto; }
+        footer .footer-link ul li {
+          font-family: 'Source Sans Pro', sans-serif;
+          font-weight: 400;
+          font-style: normal;
+          font-size: 0.75em;
+          padding-right: 2em;
+          display: inline; }
+          footer .footer-link ul li a {
+            color: #484C55;
+            text-decoration: none; }
+          footer .footer-link ul li a:hover {
+            color: #036; } }
 @media only screen and (max-width: 480px) {
   #page-header h4 {
     font-family: 'Source Sans Pro', sans-serif;
